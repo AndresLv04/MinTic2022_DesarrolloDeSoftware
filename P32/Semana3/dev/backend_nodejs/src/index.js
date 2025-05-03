@@ -9,7 +9,7 @@ const database = require('./database/db');
 const cors = require('cors');
 
 class Server {
-    //constructor
+    //constructorr
     constructor() {
         this.conectarBD();
         this.app = express();
